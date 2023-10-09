@@ -7,11 +7,13 @@ body {
 p {
     color: rgb(183, 210, 99);
     background-color: #012277;
+    padding: 0 20px;
 }
 
 .intro {
     color: #333333;
     background-color: #33aa33;
+    padding: 0 20px;
 }
 
 .unordered {
@@ -27,4 +29,40 @@ p {
 .tips {
     color: #ee11dd;
     background-color: #ababab;
+}
+
+
+
+#welcome {
+    background-color: antiquewhite;
+    color: black;
+    padding: 0 20px;
+}
+
+.recipe-list {
+    border: 1px dotted blueviolet;
+    padding: 10px 150px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+}
+
+.images {
+    width: 560px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.body {
+    border: 2px solid black;
+    margin: 0 auto;
+    padding-left: auto;
+    width: 600px;
+    display: block;
 }
